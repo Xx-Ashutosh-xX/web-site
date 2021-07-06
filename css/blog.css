@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+html{
+    background-color: black;
+}
+
+html{
+  background-image: url(https://acegif.com/wp-content/gif/outerspace-70.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 100%;
+}
+
+
+#main{
+    color: azure;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(96,10,117,1) 100%, rgba(201,0,255,1) 100%);
+    border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box; */
+    padding: 3%;
+}
+
+nav .logo{
+    color:#1890a8;
+    font-family: Pacifico;
+    font-size: 40px;
+    font-weight:100;
+    line-height: 70px;
+    padding-left: 100px;
+  }
+  nav{
+    height: 70px;
+    font-family: Pacifico;
+    background: #000;
+    box-shadow: 0 10px 15px rgba(0,0,0,.4);
+  }
+  nav ul{
+    float: right;
+    margin-right: 10px;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #000;
+    transition: .5s;
+  }
+  nav ul li a:hover,
+  nav ul li a.active{
+    color:#1890a8;
+  }
+  nav ul ul{
+    position: absolute;
+    top: 85px;
+    border-top: 3px solid #23dbdb;
+    opacity: 0;
+    visibility: hidden;
+  }
+  nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+  }
+  nav ul ul li{
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #042331;
+    border-top: none;
+  }
+  nav ul ul li a{
+    line-height: 50px;
+  }
+  nav ul ul ul{
+    border-top: none;
+  }
+  nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 150px;
+  }
+  nav ul ul li a i{
+    margin-left: 45px;
+  }
+  section{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+   
+  
+  .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+footer{
+    color:#1890a8;
+ text-align: center;
+  background-color: #000;
+  font-size: 20px;
+  font-weight:900;
+  box-shadow: 0 -10px 15px rgba(0,0,0,.4);
+}
+
+
+footer ul li{
+  display: inline-block;
+
+}
+footer ul li a{
+  color: white;
+  display: block;
+  line-height: 50px;
+  width: 100%;
+  font-size: 20px;
+  background: #000;
+  transition: .5s;
+}
+footer ul li a:hover,
+footer ul li a.active{
+  color:#1890a8;
+}
+
+#my_blog{
+    font-family:'Calibiri';
+    font-size: 2cm;;
+    font-style: unset;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+    color: rgb(243, 243, 243);
+    text-align: center;
+
+}
+
+#blogs{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10%;
+    padding: 2%;
+
+}
+
+.grid_item{
+    color: azure;
+    background: rgb(2,2,2);
+    background: linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(89,89,89,1) 100%);
+    padding: 1%;
+    margin: 1%;
+    box-shadow: 0 0 25px 2px rgb(0, 0, 0);
+    margin-bottom: 10%;
+    align-self: center;
+    margin: 10%;
+
+
+
+}
+
+.grid_item h2{
+    font-family: Pacifico;
+    font-size: 40px;
+    color:#1890a8;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    text-align:center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.grid_item p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10%;
+    
+}
+.grid_item a p{
+    color: white;
+    font-size: 20px;
+    transition: .5s;
+    text-align: center;
+
+}
+
+.grid_item a p:hover,
+.grid_item a p.active{
+    color:#1890a8;
+  }
+
