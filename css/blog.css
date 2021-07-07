@@ -185,7 +185,7 @@ footer ul li a.active{
 .grid_item{
     color: azure;
     background: rgb(2,2,2);
-    background: linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(89,89,89,1) 100%);
+    background: linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(89,89,89,1),rgba(2,2,2,1)  100%);
     padding: 1%;
     margin: 1%;
     box-shadow: 0 0 25px 2px rgb(0, 0, 0);
