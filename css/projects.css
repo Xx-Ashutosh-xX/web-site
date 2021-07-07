@@ -22,16 +22,7 @@ html{
 
 #main{
     color: azure;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 5%;
-    margin-bottom: 5%;
-    /* background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(96,10,117,1) 100%, rgba(201,0,255,1) 100%);
-    border-radius: 3px;
-	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-    box-sizing: border-box; */
-    padding: 3%;
 }
 
 nav .logo{
