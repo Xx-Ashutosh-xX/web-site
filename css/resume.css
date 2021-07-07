@@ -42,12 +42,27 @@ nav .logo{
     line-height: 70px;
     padding-left: 100px;
   }
-  nav{
+  /* nav{
     height: 70px;
     font-family: Pacifico;
     background: #000;
     box-shadow: 0 10px 15px rgba(0,0,0,.4);
-  }
+  } */
+
+
+  nav {
+    height: 70px;
+    font-family: Pacifico;
+    width: 1450;
+    /* display: flex; */
+    width: 1460px;
+    top: 0;
+    position: fixed;
+    background: #000;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 40%);
+}
+
+
   nav ul{
     float: right;
     margin-right: 10px;
